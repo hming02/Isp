@@ -7,7 +7,7 @@ public class javaconnect {
 public static java.sql.Connection ConnecrDb(){
   try{
      
-     java.sql.Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/isp", "root", "123456789");
+     java.sql.Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/isp", "root", "123456789");
      return conn;
   } catch(Exception e){
       
